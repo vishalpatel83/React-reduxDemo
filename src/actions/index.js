@@ -22,3 +22,18 @@ export const petIncrement=(number)=>{
           payload:number
       }
   }
+  export const getUserRequest=()=>{
+      return{
+          type:"GET_USER_REQUEST"
+      }
+  }
+  export const getUserSuccess=()=>{
+    return{
+        type:"GET_USER_SUCCESS"
+    }
+}
+export const getUserFailure=()=>{
+    return{
+        type:"GET_USER_FAILURE"
+    }
+}
